@@ -1,0 +1,13 @@
+C:\Users\Александр\Documents\Visual Studio 2012\Projects\NeuralNetworksTest\NeuralNetworksTest\NeuralNetworksTest\NeuralNetworksTest\bin\Debug\NeuralNetworksTest.exe.config
+C:\Users\Александр\Documents\Visual Studio 2012\Projects\NeuralNetworksTest\NeuralNetworksTest\NeuralNetworksTest\NeuralNetworksTest\bin\Debug\NeuralNetworksTest.exe
+C:\Users\Александр\Documents\Visual Studio 2012\Projects\NeuralNetworksTest\NeuralNetworksTest\NeuralNetworksTest\NeuralNetworksTest\bin\Debug\NeuralNetworksTest.pdb
+C:\Users\Александр\Documents\Visual Studio 2012\Projects\NeuralNetworksTest\NeuralNetworksTest\NeuralNetworksTest\NeuralNetworksTest\obj\Debug\NeuralNetworksTest.csprojResolveAssemblyReference.cache
+C:\Users\Александр\Documents\Visual Studio 2012\Projects\NeuralNetworksTest\NeuralNetworksTest\NeuralNetworksTest\NeuralNetworksTest\obj\Debug\MainWindow.baml
+C:\Users\Александр\Documents\Visual Studio 2012\Projects\NeuralNetworksTest\NeuralNetworksTest\NeuralNetworksTest\NeuralNetworksTest\obj\Debug\MainWindow.g.cs
+C:\Users\Александр\Documents\Visual Studio 2012\Projects\NeuralNetworksTest\NeuralNetworksTest\NeuralNetworksTest\NeuralNetworksTest\obj\Debug\App.g.cs
+C:\Users\Александр\Documents\Visual Studio 2012\Projects\NeuralNetworksTest\NeuralNetworksTest\NeuralNetworksTest\NeuralNetworksTest\obj\Debug\NeuralNetworksTest_MarkupCompile.cache
+C:\Users\Александр\Documents\Visual Studio 2012\Projects\NeuralNetworksTest\NeuralNetworksTest\NeuralNetworksTest\NeuralNetworksTest\obj\Debug\NeuralNetworksTest.g.resources
+C:\Users\Александр\Documents\Visual Studio 2012\Projects\NeuralNetworksTest\NeuralNetworksTest\NeuralNetworksTest\NeuralNetworksTest\obj\Debug\NeuralNetworksTest.Properties.Resources.resources
+C:\Users\Александр\Documents\Visual Studio 2012\Projects\NeuralNetworksTest\NeuralNetworksTest\NeuralNetworksTest\NeuralNetworksTest\obj\Debug\NeuralNetworksTest.csproj.GenerateResource.Cache
+C:\Users\Александр\Documents\Visual Studio 2012\Projects\NeuralNetworksTest\NeuralNetworksTest\NeuralNetworksTest\NeuralNetworksTest\obj\Debug\NeuralNetworksTest.exe
+C:\Users\Александр\Documents\Visual Studio 2012\Projects\NeuralNetworksTest\NeuralNetworksTest\NeuralNetworksTest\NeuralNetworksTest\obj\Debug\NeuralNetworksTest.pdb
