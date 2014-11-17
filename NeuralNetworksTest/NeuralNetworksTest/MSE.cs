@@ -10,6 +10,7 @@ namespace NeuralNetworksTest
     {
         public MSE()
         {
+
         }
     }
 }
