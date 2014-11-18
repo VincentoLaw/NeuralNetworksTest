@@ -30,7 +30,11 @@ namespace NeuralNetworksTest
             N = new int[neuronsCount];
 
             for (var j = 0; j < fstLayerSize; j++)
-                W[0, j] = rand.Next(3) - 1;
+            {
+                W[0, j] = rand.Next(2);
+                if (W[0, j] == 0)
+                    W[0, j]--;
+            }
             for (var j = 0; j < fstLayerSize; j++)
                 W[1, j] = 0;
             for (var j = 0; j < neuronsCount; j++)
@@ -57,11 +61,11 @@ namespace NeuralNetworksTest
                 int sig2 = W[0, i + 2] * Convert.ToInt32(input_vector[i + 2]) + W[0, i + 3] * Convert.ToInt32(input_vector[i + 3]);
                 int sig3 = W[0, i + 4] * Convert.ToInt32(input_vector[i + 4]) + W[0, i + 5] * Convert.ToInt32(input_vector[i + 5]);
                 if (sig1 > N[i / 2])
-                    sum += W[1, i / 2] * sig1;
+                    sum += W[1, i / 2];
                 if (sig2 > N[(i + 2) / 2])
-                    sum += W[1, (i + 2) / 2] * sig2;
+                    sum += W[1, (i + 2) / 2];
                 if (sig3 > N[(i + 4) / 2])
-                    sum += W[1, (i + 4) / 2] * sig3;
+                    sum += W[1, (i + 4) / 2];
                 if (sum >= 1) result[i / 6] = true;
                 else result[i / 6] = false;
             }
