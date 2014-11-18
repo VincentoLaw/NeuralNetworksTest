@@ -8,9 +8,9 @@ namespace NeuralNetworksTest
 {
     class MSE
     {
+        
         public MSE()
         {
-
         }
     }
 }
