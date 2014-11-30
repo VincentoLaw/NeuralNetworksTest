@@ -23,7 +23,53 @@ namespace NeuralNetworksTest
         public MainWindow()
         {
             InitializeComponent();
-            Perceptron perc = new Perceptron(6, 1, 2);
+            int middle_result = 0;
+            for (int k = 0; k < 100; k++)
+            {
+                
+                LMS lms = new LMS(2, 1);
+                Random rand = new Random();
+                for (var i = 0; i < 100; i++)
+                {
+                    int[] inp = new int[2];
+                    int cnt = 0;
+                    for (var j = 0; j < 2; j++)
+                    {
+                        inp[j] = rand.Next(21) - 10;
+                        //if (inp[j] == 1)
+                        //    cnt++;
+                    }
+                    int answer = -1;
+                    if (inp[0] + inp[1] > 0)
+                        answer = 1;
+                    lms.Learn(inp, answer);
+                }
+
+                int right_answers_cnt = 0, wrong_answers_cnt = 0;
+                for (var i = 0; i < 1000; i++)
+                {
+                    int[] inp = new int[2];
+                    int cnt = 0;
+                    for (var j = 0; j < 2; j++)
+                    {
+                        inp[j] = rand.Next(21) - 10;
+                        //if (inp[j] == 1)
+                        //    cnt++;
+                    }
+                    int answer = -1;
+                    if (inp[0] + inp[1]> 0)
+                        answer = 1;
+                    int result_class = lms.Classify(inp);
+                    if (answer == result_class)
+                        right_answers_cnt++;
+                    else wrong_answers_cnt++;
+                }
+                middle_result += (right_answers_cnt * 100 / 1000);
+                //MessageBox.Show((right_answers_cnt * 100 / 1000) + "%");
+            }
+            middle_result /= 100;
+            MessageBox.Show(middle_result + "%");
+            /*Perceptron perc = new Perceptron(6, 1, 2);
             Random rand = new Random();
             for (var i = 0; i < 100; i++)
             {
@@ -56,7 +102,7 @@ namespace NeuralNetworksTest
                 }
                 //else if (!res[0]) MessageBox.Show("GOOD");
                 //else MessageBox.Show("BAD");
-            }
+            }*/
         }
     }
 }
